@@ -1,7 +1,7 @@
 # ass_app
 
 
-Dette er en ass sin nye app.
+Dette er Åss sin nye app.
 
 les wiki til flutter: [online documentation](https://docs.flutter.dev/)
 
