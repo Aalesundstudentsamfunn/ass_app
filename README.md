@@ -5,7 +5,7 @@ Dette er en ass sin nye app.
 
 les wiki til flutter: [online documentation](https://docs.flutter.dev/)
 
-##### instruks dev: 
+### instruks dev: 
 
 det er litt krongelete å komme igang, men etter det er det realtivt straight forward. Start med å laste ned flutter. 
 
@@ -19,7 +19,7 @@ for dev på telefon har du 2 valg, har du apple pc, kan du følge oppskriften fo
 
 hvis du har windows/linux kan man IKKE teste med iphone, følg derfor denne oppskriften for android dev : [adnroid](https://docs.flutter.dev/platform-integration/android/setup)
 
-### viktig:
+# viktig:
 
 - ikke programer kjapt, dette kan vare mange år. gjør det sikkelig.
 
