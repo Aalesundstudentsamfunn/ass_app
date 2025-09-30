@@ -1,5 +1,4 @@
-# ass_app
-
+# Åss nye app - 2025/2026
 
 Dette er Åss sin nye app.
 
