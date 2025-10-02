@@ -22,3 +22,67 @@ hvis du har windows/linux kan man IKKE teste med iphone, følg derfor denne opps
 
 - ikke programer kjapt, dette kan vare mange år. gjør det sikkelig.
 
+## Development Commands
+
+### Setup and Dependencies
+```bash
+# Install dependencies
+flutter pub get
+
+# Check Flutter installation and connected devices
+flutter doctor
+
+# List available devices
+flutter devices
+```
+
+### Development and Testing
+```bash
+# Run app on Chrome (recommended for initial development)
+flutter run -d chrome
+
+# Run on specific device
+flutter run -d <device_id>
+
+# Run with hot reload enabled (default)
+flutter run
+
+# Run tests
+flutter test
+
+# Run specific test file
+flutter test test/widget_test.dart
+
+# Run widget tests only
+flutter test test/
+
+# Run tests with coverage
+flutter test --coverage
+```
+
+### Code Quality and Analysis
+```bash
+# Analyze code (lint checking)
+flutter analyze
+
+# Format code
+dart format .
+
+# Format specific file
+dart format lib/main.dart
+```
+
+### Building
+```bash
+# Build for iOS testing (macOS only)
+flutter build ios
+
+# Build for Android testing
+flutter build apk
+
+# Build for mobile testing (both)
+flutter build apk && flutter build ios
+
+# Build for Play Store (.aab) & App Store (.ipa)
+flutter build appbundle && flutter build ipa
+```
